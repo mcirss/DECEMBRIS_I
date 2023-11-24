@@ -1,5 +1,9 @@
-skaitlis=int(input("Ievadiet skaitli: "))
-faktorials=1
-for i in range(1, skaitlis + 1):
-    faktorials*=i
-print(f"Faktoriāls no {skaitlis} ir: {faktorials}")
+import datetime
+laiks = datetime.datetime.now().hour
+if 6 <=laiks< 12:
+    vards= "Labrīt!"
+eliif 12 <=laiks< 18:
+    vards="Labdin!"
+else:
+    vards="Labvakar!"
+    print(vards)
